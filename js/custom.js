@@ -1,6 +1,6 @@
 // Screenshot carousel initialization
 $('.icon_banner_foot_slider').owlCarousel({
-  loop: true,
+  loop: false ,
   responsiveClass: true,
   nav: true,
   margin: 5,
