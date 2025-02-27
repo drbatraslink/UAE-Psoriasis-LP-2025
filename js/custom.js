@@ -1,6 +1,6 @@
 // Screenshot carousel initialization
 $('.icon_banner_foot_slider').owlCarousel({
-  loop: false ,
+  loop: window.innerWidth < 768, // Loop only on mobile (below 768px)
   responsiveClass: true,
   nav: true,
   margin: 5,
