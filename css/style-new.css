@@ -30,9 +30,7 @@ header{background:#fef6e2;position:fixed;top:0;z-index:1000!important}
 @media (max-width:600px){
 .treatment_all_heading_page{margin-bottom:10px;font-size:22px!important;text-align:left}
 }
-@media (max-width:768px){
-/*.main-all-heading{text-align:center}*/
-}
+
 .owl-carousel .owl-item img{width:auto}
 .owl-carousel .owl-dots{display:none}
 
@@ -54,7 +52,7 @@ header{background:#fef6e2;position:fixed;top:0;z-index:1000!important}
 .banner_list_newhair li:not(:last-child)::after{content:'•';margin:0 4px;color:#000}
 }
 .hair_banner_content h1{font-size:48px;font-weight:700!important;line-height:normal!important;color:#0b4481}
-.hair_banner_content h2{font-size:28px;font-weight:400;line-height:normal;color:#000}
+.hair_banner_content h2{font-size:28px;font-weight:500;line-height:normal;color:#000}
 @media (max-width:1680px){
 .hair_banner_content h1{font-size:32px}
 .hair_banner_content h2{font-size:21px;line-height:normal}
@@ -72,7 +70,13 @@ header{background:#fef6e2;position:fixed;top:0;z-index:1000!important}
 }
 @media (max-width:600px){
 .hair_banner_content{text-align:center}
-.hair_banner_content h1{font-size:24px}
+.hair_banner_content h1{font-size:28px}
+.hair_banner_content h2{font-size:16px;line-height:normal}
+.img_banner_unit{width:70%}
+}
+@media (max-width:390px){
+.hair_banner_content{text-align:center}
+.hair_banner_content h1{font-size:26px}
 .hair_banner_content h2{font-size:16px;line-height:normal}
 .img_banner_unit{width:70%}
 }
@@ -254,6 +258,7 @@ header{background:#fef6e2;position:fixed;top:0;z-index:1000!important}
 .treatment_all_comm_div.lets_talk_sec .talk_about_heading{font-size:42px!important;font-weight:600;color:#000;margin-bottom:0}
 .treatment_all_comm_div.lets_talk_sec .talk_about_btn{padding: 10px; width:100%;margin-bottom:0;line-height:normal;color:#fff;border-radius:50px;font-weight:600;font-size:21px!important;border:none;background-color:#173b63!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
 .treatment_all_comm_div.lets_talk_sec .talk_about_btn:hover{color:#fff!important}
+.treatment_all_comm_div.lets_talk_sec p{font-size: 16px !important; line-height:normal; margin-bottom: 0;}
 @media (max-width:1440px){
 .treatment_all_comm_div.lets_talk_sec .talk_about_heading{font-size:35px!important}
 .treatment_all_comm_div.lets_talk_sec .talk_about_btn{font-size:16px!important}
@@ -266,6 +271,7 @@ header{background:#fef6e2;position:fixed;top:0;z-index:1000!important}
 .treatment_all_comm_div.lets_talk_sec .talk_about_heading{font-size:21px!important;font-weight:600;margin-bottom:10PX;text-align:center}
 .treatment_all_comm_div.lets_talk_sec .talk_about_btn{margin:0 auto!important;width:90%;margin-bottom:0;line-height:normal;color:#fff;border-radius:50px;font-weight:600;font-size:18px!important;border:none;background-color:#173b63!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
 .treatment_all_comm_div.lets_talk_sec{margin-top:40px}
+.treatment_all_comm_div.lets_talk_sec p{text-align: center; margin-bottom: 10px;font-size: 14px !important;}
 }
 
 /*==========================================*/
@@ -330,7 +336,7 @@ header{background:#fef6e2;position:fixed;top:0;z-index:1000!important}
 .form-group label{display:block;overflow:auto;font-size:14px;font-weight:600;color:#212121}
 .form-widget .card-body{border:none!important}
 .form-widget .form-group{width:100%!important;display:block}
-.contactFormHolder{position:absolute;right:90px;top:90px;width:300px;z-index:9}
+.contactFormHolder{position:absolute;right:90px;top:90px;width:315px;z-index:9}
 .contactForm{min-height:100px;background:#fff;box-shadow:0 2px 5px rgba(0,0,0,.3);border-radius:0;padding:0 0 20px 0}
 .formLogo{max-width:120px;margin:0 auto;margin-top:-40px;padding:2px;background:#fff;box-shadow:0 0 5px rgba(0,0,0,.3)}
 .formLogo img{display:block;width:100%;height:auto;margin:auto auto;position:relative;z-index:1}
@@ -370,12 +376,12 @@ header{background:#fef6e2;position:fixed;top:0;z-index:1000!important}
 .contactForm{max-width:600px;margin:0 auto}
 }
 @media (max-width:767px){
-.contactFormHolder{background-color:#fff}
+.contactFormHolder{background-color:#fff;}
 .formLogo{display:none}
 .contactForm h2{font-size:1.5em;padding-top:0}
 .btn-primary{font-size:1em}
 }
-.form_head_text{font-size:19px;line-height:normal;font-weight:500;color:#212121}
+.form_head_text{font-size:18px;line-height:normal;font-weight:500;color:#212121}
 .book_btn{width:100%;background:#ea1f27;color:#fff;padding:5px 25px;font-weight:600;border-radius:0}
 .form-check-label{font-size:10px}
 .open-btn-cls-new{background-color:#2876a9;color:#fff;font-size:20px;width:100%;text-decoration:none;padding:20px 0;height:60px;text-transform:uppercase;font-weight:500;font-size:16px;line-height:24px}
@@ -387,14 +393,14 @@ header{background:#fef6e2;position:fixed;top:0;z-index:1000!important}
 @media (max-width:600px){
 .open-button{height:52px;background-color:#e41225;color:#fff;padding:10px 20px;border:none;cursor:pointer;position:fixed;bottom:0;right:auto;left:0;width:100%;font-weight:600;line-height:18px}
 .open-btn-cls-new:hover{font-weight:600;text-decoration:none;color:#fff}
-.chat-popup{width:93%;display:none;position:fixed;bottom:0;left:15px;right:15px;z-index:9}
+.chat-popup{width:92%;display:none;position:fixed;bottom:0;left:15px;right:15px;z-index:9}
 .contactForm{min-height:100px;background:#fff;box-shadow:0 2px 5px rgba(0,0,0,.3);border-radius:0;padding:0 0 20px 0}
 }
 .google_strip_gredint{text-align:center;padding:10px 30px;background:linear-gradient(90deg,#0d2334 0,#173d5b 51%,#0d2334 100%);display:flex;align-items:center}
 .google_strip_gredint p{padding:4px 0 0 5px;margin-bottom:0;color:#fff;font-size:13px;font-weight:500;text-align:left}
-.form-top-new{padding:20px 20px 0 20px}
+.form-top-new{padding:15px 15px 0 15px}
 #form-area-scroll{transition:margin-top .3s ease;scroll-margin-top:60px}
-
+@media (max-width:600px){.google_strip_gredint p{font-size: 12px;}}
 /*==========================================*/
 /* Tab section css*/
 /*==========================================*/

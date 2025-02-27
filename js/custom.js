@@ -27,7 +27,7 @@ $('.screenshot_slider').owlCarousel({
   nav: true,
   margin: 5,
   autoplay: true,
-  autoplayTimeout: 6000,
+  autoplayTimeout: 4000,
   smartSpeed: 400,
   navText: [
     "<img src='images/previmage.webp' alt='001 prev' width='50' height='50' />",
