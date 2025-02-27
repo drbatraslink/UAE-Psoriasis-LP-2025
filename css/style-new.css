@@ -393,7 +393,7 @@ header{background:#fef6e2;position:fixed;top:0;z-index:1000!important}
 .google_strip_gredint{text-align:center;padding:10px 30px;background:linear-gradient(90deg,#0d2334 0,#173d5b 51%,#0d2334 100%);display:flex;align-items:center}
 .google_strip_gredint p{padding:4px 0 0 5px;margin-bottom:0;color:#fff;font-size:13px;font-weight:500;text-align:left}
 .form-top-new{padding:20px 20px 0 20px}
-#form-area-scroll{transition:margin-top .3s ease}
+#form-area-scroll{transition:margin-top .3s ease;scroll-margin-top:60px}
 
 /*==========================================*/
 /* Tab section css*/
