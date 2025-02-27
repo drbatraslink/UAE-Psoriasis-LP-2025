@@ -47,7 +47,7 @@ header{background:#fef6e2;position:fixed;top:0;z-index:1000!important}
 .banner_list_newhair li:first-child{padding-top:8px;padding-left:0}
 @media screen and (max-width:768px){
 .banner_list_newhair{text-align:center;margin-bottom:10px;padding-inline-start:0px}
-.banner_list_newhair li{display:inline;font-size:12px}
+.banner_list_newhair li{display:inline;font-size:14px}
 .banner_list_newhair li:first-child{padding-top:0;padding-left:0}
 .banner_list_newhair li:not(:last-child)::after{content:'•';margin:0 4px;color:#000}
 }
@@ -71,13 +71,13 @@ header{background:#fef6e2;position:fixed;top:0;z-index:1000!important}
 @media (max-width:600px){
 .hair_banner_content{text-align:center}
 .hair_banner_content h1{font-size:28px}
-.hair_banner_content h2{font-size:16px;line-height:normal}
+.hair_banner_content h2{font-size:18px;line-height:normal}
 .img_banner_unit{width:70%}
 }
 @media (max-width:390px){
 .hair_banner_content{text-align:center}
 .hair_banner_content h1{font-size:26px}
-.hair_banner_content h2{font-size:16px;line-height:normal}
+.hair_banner_content h2{font-size:18px;line-height:normal}
 .img_banner_unit{width:70%}
 }
 .small_white_offer_offer{float:right;font-size:12px;font-weight:600;color:#fff;margin-top:-25px}
