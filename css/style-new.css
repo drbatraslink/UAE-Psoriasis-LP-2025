@@ -574,7 +574,7 @@ header{background:#fef6e2;position:fixed;top:0;z-index:1000!important}
 /*==========================================*/
 .tab_aligment_section{padding-top:40px}
 ul.nptabbs{margin:0;padding:0;float:left;list-style:none;width:100%;align-items:center;display:flex;align-items:center;border:1px solid #efefef;border-radius:6px}
-ul.nptabbs li{float:left;width:20%;cursor:pointer;padding:28px 0;text-align:center;font-size:16px;font-weight:600;line-height:20px;border-radius:0;border-right:1px solid #efefef;background-color:rgb(255 255 255 / 29%);color:#000;position:relative}
+ul.nptabbs li{float:left;width:20%;cursor:pointer;padding:28px 0;text-align:center;font-size:16px;font-weight:600;line-height:20px;border-radius:0;border-right:1px solid #efefef;background-color:rgb(255 255 255 / 29%);color:#1b3c62;position:relative}
 ul.nptabbs li:last-child{border-right:none}
 ul.nptabbs li.active::before{content:url(../images/dot-single.webp);display:inline-block;width:25px;font-size:25px!important;position:absolute;left:44%;bottom:15px}
 ul.nptabbs li img{padding-bottom:15px}
