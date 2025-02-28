@@ -260,3 +260,6 @@ $(function() {
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(tabControl, 250);
   });
+
+
+  
